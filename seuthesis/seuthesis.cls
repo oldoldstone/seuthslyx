@@ -694,8 +694,7 @@
   \song\wuhao
 }{\par}
 \newcommand{\backcover}{
-  \pagestyle{empty}
-  \clearpage
+  \clearpage\pagestyle{empty}
   \begin{picture}(0,0)(20,650)
     {\includegraphics[width=\textwidth,bb=0 0 2424 3508]{figures/back-cover.png}}
   \end{picture}
