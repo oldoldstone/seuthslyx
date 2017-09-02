@@ -145,7 +145,7 @@ listtablename={表格目录}
 \fancyhf{}
 \fancyhead[CE]{\xiaowuhao\universityname{}\@thesistype}
 \fancyhead[CO]{ \xiaowuhao\leftmark}
-\fancyfoot[CO,CE]{\thepage}
+\fancyfoot[CO,CE]{\xiaowuhao\thepage}
 }
 \pagestyle{seustyle}
 
@@ -153,7 +153,7 @@ listtablename={表格目录}
 \fancyhf{} 
 \fancyhead[CO]{\xiaowuhao\universityname{}\@thesistype}
 \fancyhead[CE]{ \xiaowuhao\nomname}
-\fancyfoot[CO,CE]{\thepage}
+\fancyfoot[CO,CE]{\xiaowuhao\thepage}
 }
 
 \renewcommand{\headrulewidth}{0.4pt}

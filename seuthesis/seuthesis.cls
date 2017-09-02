@@ -149,12 +149,12 @@
 \fancyhf{}
 \fancyhead[CE]{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}
 \fancyhead[CO]{\song{}\xiaowuhao{}\leftmark}
-\fancyfoot[C]{\thepage}
+\fancyfoot[C]{\xiaowuhao{}\thepage}
 \renewcommand{\chaptermark}[1]{\markboth{\chaptertitlename\quad\chaptertitle   {##1}}{}}
 }
 \fancypagestyle{plain}{%
   \fancyhf{} % clear all header and footer fields
-  \fancyfoot[C]{\thepage} % except the center
+  \fancyfoot[C]{\xiaowuhao{}\thepage} % except the center
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
