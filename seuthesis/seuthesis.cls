@@ -21,6 +21,11 @@
 %% To produce the documentation run the original source files ending with `.dtx'
 %% through LaTeX.
 %% 
+%% oldoldstone<oldoldstone@gmail.com>修改于2017.9.1
+%% 1：使用zhnumber宏包代替CJKnumber，使其能在最新的TeXLive2016编译通过
+%% 2：使用fancyhf宏包重写了页眉页脚定义，支持章节首页显示页眉
+%%
+
  \NeedsTeXFormat{LaTeX2e}[1999/12/01]
  \ProvidesClass{seuthesis}[2012/04/19 2.1.2 The LaTeX template for thesis of Southeast University]
  \typeout{Document Class `seuthesis' v2.1.2 by Xu Yuan, Song Yihan, Huang Xiaoyu (2012/04/19)}
@@ -48,7 +53,7 @@
 \RequirePackage{doc}
 \RequirePackage{keyval}
 \RequirePackage{ifthen}
-
+\RequirePackage{zhnumber}
 \RequirePackage{xltxtra}
 \RequirePackage{graphicx}
 \RequirePackage[dvipsnames]{xcolor}
@@ -69,11 +74,10 @@
 \RequirePackage[CJKnumber,slantfont,boldfont]{xeCJK}
 \RequirePackage{CJKulem}
 \newlength\CJK@twochars
-\def\CJK@spaceChar{\Unicode{48}{7}}
+\def\CJK@spaceChar{\hskip \f@size \p@}
 \def\CJKindent{%
     \settowidth\CJK@twochars{\CJK@spaceChar\CJK@spaceChar}%
     \parindent\CJK@twochars}
-
 \RequirePackage{hyperref}
 \AtBeginDocument{\CJKindent{}%
     \InputIfFileExists{seuthesis-utf8.cfg}% 引入配置文件
@@ -140,27 +144,21 @@
   menucolor=red,
   urlcolor=magenta
 }
-\newpagestyle{seustyle}{
-  \sethead[][{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}][] % 偶数页
-  {}{{\song{}\xiaowuhao{}\chaptertitlename\quad\chaptertitle}}{} % 奇数页
-  \setfoot{}{\thepage}{}
-  \headrule
+\RequirePackage{fancyhdr}
+\fancypagestyle{seustyle}{%
+\fancyhf{}
+\fancyhead[CE]{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}
+\fancyhead[CO]{\song{}\xiaowuhao{}\leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptertitlename\quad\chaptertitle   {##1}}{}}
 }
-\newpagestyle{seufrontstyle}{
-  \sethead[][{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}][]
-  {}{{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}}{}
-  \setfoot{}{\thepage}{}
-  \headrule
+\fancypagestyle{plain}{%
+  \fancyhf{} % clear all header and footer fields
+  \fancyfoot[C]{\thepage} % except the center
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
 }
-\newpagestyle{seunolabelstyle}{
-  \sethead[][{\song{}\xiaowuhao{}东南大学\@degree{}学位论文}][]
-  {}{{\song{}\xiaowuhao{}\chaptertitle}}{}
-  \setfoot{}{\thepage}{}
-  \headrule
-}
-\renewpagestyle{plain}{
-  \setfoot{}{\thepage}{}
-}
+\pagestyle{seustyle} 
 \renewcommand{\author}[2]{
   \def\@author{#1}
   \newcommand{\@authoreng}{#2}
@@ -280,7 +278,8 @@
   \thispagestyle{empty}
   \seudeclare % 独创性和使用授权声明
   \frontmatter % 开始正文之前的部分
-  \pagestyle{seufrontstyle}\clearpage
+  \pagestyle{seustyle}
+  \clearpage
   \fi
 }
 \newcommand{\seuthesis}{%
@@ -454,7 +453,7 @@
 
   \stcleardp
 }
-
+\usepackage{ulem}%下划线跨行
 \ifbachelordegree % 本科论文封面
 \renewcommand{\chinesecover}{
   \begin{titlepage}
@@ -561,7 +560,6 @@
   \ifbachelordegree
   \renewcommand{\newtitleline}{\\}
   \chapter*{\@title}
-
   \begin{flushright}
     \begin{tabular}[h]{ll}
       \@studentid & \kai\@author \\
@@ -581,7 +579,8 @@
   \xiaosihao
   \else
   \wuhao
-  \fi
+  \fi  
+  \markboth{\@abstracttitle}{}
 }{
   \par
   \begin{description}
@@ -615,6 +614,7 @@
   \else
   \wuhao
   \fi
+  \markboth{Abstract}{}
 }{
   \par
   \begin{description}
@@ -628,8 +628,8 @@
   {\linespacing{1.15}%
   \song\xiaosihao%
   \phantomsection
-  \tableofcontents@orig \par
-  \pagestyle{seunolabelstyle}\clearpage} %目录部分字体可采用小四号宋体。
+  \tableofcontents@orig \par 
+  \clearpage} %目录部分字体可采用小四号宋体。
 }
 \newenvironment{terminology}[1][\@terminologytitle]
 {
@@ -637,6 +637,7 @@
   \phantomsection
   \addcontentsline{toc}{chapter}{#1}
   \chapter*{#1}
+  \markboth{#1}{}
   \song\xiaosihao
 }{
   \par
@@ -658,19 +659,20 @@
 \let\originalcite=\cite
 \renewcommand{\cite}[1]{\textsuperscript{\originalcite{#1}}}
 \renewcommand{\citet}[1]{\originalcite{#1}}
-\bibliographystyle{seuthesis}
+%\bibliographystyle{seuthesis}
 \renewcommand\@biblabel[1]{#1}  % Reference list option change from [1] to 1
 \let\orig@bibliography=\bibliography
 \renewcommand{\bibliography}[1]{
   \orig@bibliography{#1}
-  \pagestyle{seunolabelstyle}\clearpage % 使参考文献使用 seunolabel 页面样式
-  \pagestyle{seufrontstyle}} % 恢复原有样式给后续部分
+  \clearpage % 使参考文献使用 seunolabel 页面样式
+  } % 恢复原有样式给后续部分
 \newenvironment{Acknowledgement}[1][\@acknowledgementtitle]
 {%
   \stcleardp
   \phantomsection
   \addcontentsline{toc}{chapter}{\@acknowledgementtitletoc}
   \chapter*{#1}
+  \markboth{#1}{}
   \song\wuhao
 }{\par}
 \newenvironment{Appendix}
@@ -688,6 +690,7 @@
   \phantomsection
   \addcontentsline{toc}{chapter}{\@resumetitletoc}
   \chapter*{#1}
+  \markboth{#1}{}
   \song\wuhao
 }{\par}
 \newcommand{\backcover}{
@@ -700,8 +703,15 @@
 \ifbachelordegree
 \renewcommand{\backcover}{}
 \fi
-
-
+\DeclareCaptionFont{capFont}{\song\wuhao} % 表格名及图名用5号宋体
+\DeclareCaptionLabelSeparator{twospace}{~~}
+\captionsetup{
+  labelsep=twospace,% 去掉图标签后的冒号
+  font={capFont},%
+  figurename=图,%
+  tablename=表,%
+  listfigurename=插图目录,%
+  listtablename=表格目录}
 \endinput
 %%
 %% End of file `seuthesis.cls'.

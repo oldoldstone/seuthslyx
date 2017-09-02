@@ -17,6 +17,10 @@
 %% You should have received a copy of the GNU General Public License
 %% along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+%% oldoldstone<oldoldstone@gmail.com>修改于2017.9.1
+%% 1：修改封面格式
+%% 2：奇偶页页眉互换，符合学校要求，并支持章节首页显示页眉
+%% 3: 格式小更改
 
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
 \ProvidesClass{seuthesix}[2016/03/20 1.0.1 The LaTeX template for academic  degree thesis of Southeast University]
@@ -46,6 +50,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{ctexrep}}
 \ProcessOptions
 \LoadClass[twoside,a4paper,zihao=-4,UTF8,openright]{ctexrep}
+\xeCJKsetup{AutoFakeBold=true}
 \RequirePackage[titles]{tocloft}
 \renewcommand{\cftchapleader}{\bfseries\cftdotfill{\cftdotsep}}
 \newcommand{\chuhao}{\fontsize{42bp}{46bp}\selectfont}
@@ -78,6 +83,7 @@ subsubsection/format=\sihao\mdseries\raggedright,
 listfigurename={插图目录},
 listtablename={表格目录}
 }
+\RequirePackage{indentfirst}
 \RequirePackage[font=small]{caption}
 %\RequirePackage{mathptmx}
 \setmainfont[Mapping=tex-text]{Times New Roman}
@@ -107,7 +113,7 @@ listtablename={表格目录}
 \numberwithin{algorithm}{chapter}
 \floatname{algorithm}{算法}
 \renewcommand{\listalgorithmname}{算法目录}
-\RequirePackage[super,square]{natbib}
+\RequirePackage[super,square,comma,sort&compress]{natbib}
 \newcommand\citen[1]{[\!\!\citenum{#1}]}
 \RequirePackage{hyperref}
 \ifnocolorlinks
@@ -125,7 +131,7 @@ listtablename={表格目录}
 }
 \AtEndDocument{\backcover}
 \newcommand{\backcover}{
-\clearpage\thispagestyle{empty}\cleardoublepage\mbox{ }
+%\clearpage\thispagestyle{empty}\cleardoublepage\mbox{ }
 \clearpage\thispagestyle{empty} %backcover always at even page.
 \begin{picture}(0,0)
  \put(-1,-22){ %
@@ -133,12 +139,12 @@ listtablename={表格目录}
 \end{picture}
 }
 
-\RequirePackage[top=1.2in,bottom=1in,left=2.5cm,right=2.5cm,a4paper]{geometry}
+\RequirePackage[top=2.5cm,bottom=2cm,left=2.5cm,right=2.5cm,a4paper]{geometry}
 \RequirePackage{fancyhdr}
 \fancypagestyle{seustyle}{%
 \fancyhf{}
-\fancyhead[CO]{\xiaowuhao\universityname{}\@thesistype}
-\fancyhead[CE]{ \xiaowuhao\leftmark}
+\fancyhead[CE]{\xiaowuhao\universityname{}\@thesistype}
+\fancyhead[CO]{ \xiaowuhao\leftmark}
 \fancyfoot[CO,CE]{\thepage}
 }
 \pagestyle{seustyle}
@@ -248,6 +254,12 @@ listtablename={表格目录}
 \renewcommand\headrulewidth{0pt}
 }
 \newcommand\makebigcover{%generating a3 front cover
+ \hypersetup{
+   pdfauthor={\@author},
+   pdftitle={\universityname{}\@thesistype},
+   pdfsubject={\@title \@subtitle},
+   pdfcreator={xetex}
+ }
 \pdfpagewidth=420mm
 \pdfpageheight=297mm
 \setlength{\paperheight}{297mm}
@@ -256,7 +268,7 @@ listtablename={表格目录}
  \setlength{\unitlength}{1cm}
  \noindent
 \begin{picture}(0,0)
-\setlength{\unitlength}{1cm}\put(19.5,-8){%
+\setlength{\unitlength}{1cm}\put(19.5,-8.5){%
 \includegraphics[width=19cm]{figures/front-cover.jpg}}%
 \end{picture}
  \begin{picture}(0,0)
@@ -273,18 +285,18 @@ listtablename={表格目录}
 \end{picture}
  \ifengineering
 \begin{picture}(0,0)
- \put(23.2,-7.5){ %
-\includegraphics[scale=0.65]{figures/engineering.png}}
+ \put(24.2,-8){ %
+\includegraphics[height=30pt]{figures/engineering.png}}
 \end{picture}
    \else \ifmasters
 \begin{picture}(0,0)
- \put(24.5,-7.5){ %
-\includegraphics[scale=1.1]{figures/master-hwzs.pdf}}
+ \put(24.6,-8){ %修改为粗体
+\includegraphics[height=30pt]{figures/master.png}}
 \end{picture}
    \else \ifphd
 \begin{picture}(0,0)
- \put(24.5,-7.5){ %
-\includegraphics[scale=1.1]{figures/doctor-hwzs.pdf}}
+ \put(24.6,-8){ %修改为粗体
+\includegraphics[height=30pt]{figures/doctor.png}}
 \end{picture}
    \else
    \ClassError{seuthesix}{invalid degree type option.}%
@@ -317,7 +329,7 @@ listtablename={表格目录}
 }
 \end{picture}
 
-\vspace*{8cm}
+\vspace*{9cm}
 
 \hspace*{20.5cm}
 \begin{minipage}{16cm}
@@ -329,10 +341,11 @@ listtablename={表格目录}
 \end{minipage}
 
 \hspace*{20.5cm}
-\begin{minipage}{16cm}
+\begin{minipage}{16cm}    
+\vspace*{40pt}
     \begin{center}
     \setlength{\tabcolsep}{0pt}
-    \renewcommand{\arraystretch}{2.0}
+    \renewcommand{\arraystretch}{1.6}
      \begin{tabular}{cr}
        \makebox[3.5cm][s]{\xiaoerhao\songti\authorpre: } &
        \underline{\makebox[6cm][s]{
@@ -357,11 +370,12 @@ listtablename={表格目录}
    \end{center}
   \end{minipage}
 
-    \hspace*{20.5cm}
+  \hspace*{20.5cm}
    \begin{minipage}{16cm}
+   \vspace*{30pt}
        \begin{center}
    \setlength{\tabcolsep}{10pt}
-    \renewcommand{\arraystretch}{2.0}
+    \renewcommand{\arraystretch}{1.4}
      \begin{tabular}{ll}
        \CoverBottomOption{\appdegreepre}{\@degreetype} &
        \CoverBottomOption{\authorizeorganizationpre}{\@authorizeorganization} \\
@@ -408,18 +422,18 @@ listtablename={表格目录}
 }
 }
 
-\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,23){%
+\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,23.5){%
 \parbox{\paperwidth}{\centering\includegraphics[width=\paperwidth]{figures/front-cover.jpg}}}}%
 
    \ifengineering
-\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18){ %
-\parbox{\paperwidth}{\centering\includegraphics[scale=0.65]{figures/engineering.png}}}}%
+\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18.5){ %
+\parbox{\paperwidth}{\centering\includegraphics[height=30pt]{figures/engineering.png}}}}%
    \else \ifmasters
-\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18){ %
-\parbox{\paperwidth}{\centering\includegraphics[scale=1.1]{figures/master-hwzs.pdf}}}}%
+\AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18.5){ %
+\parbox{\paperwidth}{\centering\includegraphics[height=30pt]{figures/master.png}}}}%
    \else \ifphd
-   \AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18){ %
-\parbox{\paperwidth}{\centering\includegraphics[scale=1.1]{figures/doctor-hwzs.pdf}}}}%
+   \AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(0,18.5){ %
+\parbox{\paperwidth}{\centering\includegraphics[height=30pt]{figures/doctor.png}}}}%
    \else
    \ClassError{seuthesix}{invalid degree type option.}%
    {Check your class option of degree type to be one of the following:%
@@ -430,17 +444,18 @@ listtablename={表格目录}
 \AddToShipoutPictureBG*{\setlength{\unitlength}{1cm}\put(17,27){%
 \parbox{\paperwidth}{\includegraphics[width=2cm]{figures/seu-color-logo.png}}}}%
 
-   \vspace*{8cm}
+   \vspace*{8.5cm}
 
    \begin{center}
      \linespread{1.25}
      \yihao\heiti\@title\\
      \yihao\heiti\@subtitle
    \end{center}
-
+   
+   \vspace*{20pt}
    \begin{center}
     \setlength{\tabcolsep}{0pt}
-    \renewcommand{\arraystretch}{2.0}
+    \renewcommand{\arraystretch}{1.5}
      \begin{tabular}{cr}
        \makebox[3.5cm][s]{\xiaoerhao\songti\authorpre: } &
        \underline{\makebox[6cm][s]{
@@ -463,10 +478,11 @@ listtablename={表格目录}
        \fi \\
      \end{tabular}
    \end{center}
-
+   
+   \vspace*{10pt} 
    \begin{center}
    \setlength{\tabcolsep}{10pt}
-    \renewcommand{\arraystretch}{2.0}
+    \renewcommand{\arraystretch}{1.4}
      \begin{tabular}{ll}
        \CoverBottomOption{\appdegreepre}{\@degreetype} &
        \CoverBottomOption{\authorizeorganizationpre}{\@authorizeorganization} \\
@@ -578,13 +594,14 @@ listtablename={表格目录}
 
 \renewenvironment{abstract}[1]
 {
-\pagenumbering{Roman}
+\pagenumbering{Roman}  
 \clearpage\thispagestyle{empty}\cleardoublepage\thispagestyle{plain}
  \newcommand{\@keywords}{#1}
  \hypersetup{pdfkeywords={\@keywords}}
  \phantomsection
  \addcontentsline{toc}{chapter}{\@abstracttitle}
    \chapter*{\@abstracttitle}
+   \markboth{\@abstracttitle}{}
    \setcounter{page}{1}
 }
 {
@@ -595,8 +612,8 @@ listtablename={表格目录}
 }
 
 \newenvironment{englishabstract}[1]
-{
-\cleardoublepage\thispagestyle{plain}
+{ 
+\cleardoublepage\thispagestyle{plain} 
  \newcommand{\@keywords}{#1}
  \phantomsection
  \addcontentsline{toc}{chapter}{Abstract}
@@ -605,6 +622,7 @@ chapter/nameformat=\large\bfseries,
 chapter/titleformat=\large\bfseries
 }
   \chapter*{Abstract}
+  \markboth{Abstract}{}
    \ctexset{%
 chapter/nameformat=\large\heiti,
 chapter/titleformat=\large\heiti
@@ -639,14 +657,14 @@ chapter/titleformat=\large\heiti
 \listofalgorithms
 \fi
 
-\ifnomlist
+
+\ifnomlist 
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{\nomname}
-\pagestyle{nom}
+\addcontentsline{toc}{chapter}{\nomname}  
 \printnomenclature[1in]
+\markboth{\nomname}{}
 \fi
-
 }
 
 \newcommand{\mainmatter}{%
@@ -655,11 +673,12 @@ chapter/titleformat=\large\heiti
 \pagestyle{seustyle}
 }
 
-\newcommand{\acknowledgement}{%
+\newcommand{\acknowledgement}{% 
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{致 谢}
-\chapter*{致 谢}
+\addcontentsline{toc}{chapter}{致\quad{}谢}
+\chapter*{致\quad{}谢}
+\markboth{致\quad{}谢}{}
 }
 
 \newcommand{\thesisbib}[1]{%
@@ -675,6 +694,7 @@ chapter/titleformat=\large\heiti
 \phantomsection
 \addcontentsline{toc}{chapter}{#1}
 \chapter*{#1}
+\markboth{#1}{}
 }
 
 \newcommand{\seuthesix}{%
@@ -684,6 +704,6 @@ chapter/titleformat=\large\heiti
 \newcommand{\seuthesis}{%
  \makebox{S\hspace{-0.3ex}\raisebox{-0.5ex}{E}\hspace{-0.3ex}U\hspace{0.1em}%
  \textsc{Thesis}}
-}
+} 
 \endinput
 %% End of file `seuthesix.cls'.
