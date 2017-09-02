@@ -1,0 +1,388 @@
+#% Do not delete the line below; configure depends on this      
+#  \DeclareLaTeXClass[seuthesis]{thesis (stu)}
+# LyX Layout definition file.
+# for thesis of Southeast University
+# --------
+# Author:oldoldstone <oldoldstone@gmail.com>
+# Date: 2017/08/031
+# 
+# Copyright (C) 2017 oldoldstone<oldoldstone@gmail.com>
+# 
+# This file may be distributed and/or modified under the
+# conditions of the LaTeX Project Public License, either version 1.3a
+# of this license or (at your option) any later version.
+# The latest version of this license is in:# 
+# http://www.latex-project.org/lppl.txt 
+# and version 1.3a or later is part of all distributions of LaTeX
+# version 2004/10/01 or later.
+
+# This work consists of the files seuthesis.layout and 
+# and seuthesix.layout
+
+# Read the definitions from book.layout
+Input book.layout
+Input theorems.inc
+NoStyle Right_Address 
+NoStyle Address
+ 
+Style Title
+	Category	FrontMatter
+	LatexType	command
+	LatexName	title
+	Margin		First_Dynamic
+	LabelType	No_Label
+	LabelString	标题
+	Argument 1
+	  Mandatory	1
+	  LabelString	"标题:"
+	  Tooltip	"中文标题"
+	EndArgument
+	Argument 2
+	  Mandatory	1
+	  LabelString	"副标题:"
+	  Tooltip	"中文副标题"
+	EndArgument
+  Argument 3
+	  Mandatory	1
+	  LabelString	"英文标题"
+	  Tooltip	"英文标题"
+	EndArgument
+	LabelSep	x
+	ParIndent	MMM
+	ParSkip		0.4
+	TopSep		0.7
+	BottomSep	0.7
+	ParSep		0.3
+	Align		Center  
+  Font
+	  Size                Largest
+	EndFont 
+  InTitle    0
+End
+
+Style Author
+	Category	FrontMatter
+	LatexType	command
+	LatexName	author
+	Margin		First_Dynamic
+	LabelType	No_Label
+	LabelString	Author
+	Argument 1 
+    Mandatory	1 
+	  LabelString	"姓名:"
+	  Tooltip	"中文姓名"
+	EndArgument  
+	LabelSep	x
+	ParIndent	MMM
+	ParSkip		0.4
+	TopSep		0.7
+	BottomSep	0.7
+	ParSep		0.3
+	Align		center
+	LabelFont
+	  Series	Bold
+	EndFont
+  InTitle   0
+End
+
+Style 学院
+	CopyStyle		Author
+  LatexName   department 
+	LabelString	"学院:"
+  Argument 1
+	  Mandatory	1
+	  LabelString	"学院:"
+	  Tooltip	"中文学院
+	EndArgument
+End 
+
+Style Chapter
+  LabelSep	xxx
+	ParSkip		0.4
+	TopSep		0.9
+  Align     Center
+	BottomSep	0.9
+  LabelType			Static
+End
+
+Style 导师
+  Category	FrontMatter
+	LatexType	command
+	LatexName	advisor
+	Margin		First_Dynamic
+	LabelString		"指导老师:"
+  LabelType	Static
+	Argument 1
+	  Mandatory	1
+	  LabelString	"姓名:"
+	  Tooltip	"中文姓名"
+	EndArgument
+	Argument 2
+	  Mandatory	1
+	  LabelString	"职称:"
+	  Tooltip	"中文职称"
+	EndArgument
+  Argument 3
+	  Mandatory	1
+	  LabelString	"英文姓名:"
+	  Tooltip	"英文职称"
+	EndArgument
+	LabelSep	x
+	ParIndent	MMM
+	ParSkip		0.4
+	TopSep		0.7
+	BottomSep	0.7
+	ParSep		0.3
+	Align		center
+	LabelFont
+	  Series	Bold
+	EndFont    
+End
+
+Style 合作导师
+  CopyStyle     导师
+  LabelString		"合作导师:"
+  LatexName   coadvisor  
+End
+
+Style Address
+	CopyStyle     Date
+  LatexName     address
+	LabelString   "地点:" 
+   LabelFont 
+    Color       Blue
+    Series      bold
+	EndFont
+  LabelType	Static
+  InTitle       0
+End 
+
+Style 学位
+	CopyStyle		Address
+  LatexName   degree
+	LabelString	"学位:" 
+End 
+
+Style 专业
+  CopyStyle     Address
+	LatexName     major 
+	LabelString		"专业:"
+  Argument 1
+	  Mandatory	0
+	  LabelString	"字符长度"
+	  Tooltip	"缺省为8个字符"
+	EndArgument 
+End
+
+Style 基金资助
+  CopyStyle     Address
+	LatexName     thanks
+	LabelString		"基金资助:" 
+  Align         Left
+  Margin        Dynamic 
+  LabelFont
+	  Color		blue
+	  Size		Normal
+	EndFon
+End 
+ 
+Style Abstract
+	Margin		Dynamic
+	LatexType	Environment
+	LatexName	abstract
+	Category	FrontMatter
+  Argument 1 
+	  LabelString	"Keywords"
+	  Tooltip	"please input keywords separated by ;"
+	  Mandatory	1
+	  DefaultArg	"!"
+	  AutoInsert	1
+	EndArgument 
+	NextNoIndent	0
+	LabelSep	xxx
+	ParSkip		0.4
+	TopSep		0.7
+	BottomSep	0.4
+	Align		Block
+  AlignPossible         Block, Left, Right, Center
+	LabelType	Static
+	LabelString	"中文摘要"
+	LabelFont
+	  Series	Bold
+	EndFont
+End
+
+Style 英文摘要
+	CopyStyle		Abstract
+  LatexName   englishabstract
+  LabelString	"英文摘要"
+  
+End 
+
+Style 符号与术语
+  CopyStyle     Abstract
+	LatexName     terminology
+  LabelString   "符号与术语"
+  Category      FrontMatter 
+  Argument 1
+	  Mandatory	0
+	  LabelString	"名称:"
+	  Tooltip	"符号与术语"
+	EndArgument 
+End
+
+Style 作者简介
+  CopyStyle        Abstract
+  Category         BackMatter
+	LabelString        "作者简介:" 
+  LatexName          Resume
+  Argument 1
+	  Mandatory	0
+	  LabelString	"名称:"
+	  Tooltip	"作者简介"
+	EndArgument 
+End
+
+Style Acknowledgement	  
+	CopyStyle        作者简介
+	LabelBottomSep        0.5
+	LabelString      致谢
+  LatexName         Acknowledgement
+  Argument 1
+	  Mandatory	0
+	  LabelString	"名称"
+	  Tooltip	"作者简介"
+	EndArgument
+End
+
+InsetLayout Flex:UDC
+	LyxType		custom
+	LatexType	command
+	LatexName	UDC
+	Decoration	classic
+	LabelString	"UDC" 
+	LabelFont
+	  Color		marginlabel
+	  Size		Normal
+	EndFont
+End
+
+InsetLayout Flex:分类号
+  CopyStyle     Flex:UDC  
+  LatexName     categorynumber 
+	LabelString   "分类号" 
+End
+
+InsetLayout Flex:密级
+	CopyStyle     Flex:UDC 
+  LatexName     secretlevel 
+	LabelString   "密级"
+End
+
+InsetLayout Flex:学号
+	CopyStyle		Flex:UDC
+  LatexName   studentid 
+	LabelString	"学号:"
+End
+
+InsetLayout Flex:二级学科
+  CopyStyle     Flex:UDC
+	LatexName     submajor
+	LabelString		"二级学科:" 
+End
+
+InsetLayout Flex:答辩委员会主席
+	CopyStyle		Flex:UDC
+  LatexName   committeechair 
+	LabelString	"答辩主席:"
+End
+
+InsetLayout Flex:完成时间
+	CopyStyle		Flex:UDC
+  LatexName   duration 
+	LabelString	"完成时间:"
+End
+
+InsetLayout Flex:学位授予日期
+	CopyStyle		Flex:UDC
+  LatexName	authorizedate 
+	LabelString	"学位授予日期:"
+End
+
+InsetLayout Flex:答辩日期
+  CopyStyle		Flex:UDC
+  LatexName		defenddate
+  LabelString		"答辩日期:"
+End
+
+InsetLayout Flex:评阅人
+	CopyStyle		Flex:UDC
+  LatexName	reader 
+	LabelString	"评阅人:"
+  Argument 1
+	  Mandatory	1
+	  LabelString	"A:"
+	  Tooltip	"评阅A"
+	EndArgument
+End
+
+InsetLayout Flex:术语与符号
+	CopyStyle		Flex:UDC
+  LatexName	nomenclature 
+	LabelString	"术语与符号约定"
+  Argument 1
+	  Mandatory	1
+	  LabelString	"符号:"
+	  Tooltip	"符号"
+	EndArgument
+End
+
+
+InsetLayout Flex:首页封面
+	CopyStyle		Flex:UDC
+  LatexName   makebigcover  
+	LabelString	"生成首页封面"
+End
+
+InsetLayout Flex:封面
+	CopyStyle		Flex:UDC
+  LatexName   maketitle 
+	LabelString	"生成封面"
+End
+
+
+InsetLayout Flex:开始正文
+  CopyStyle		Flex:UDC
+  LatexName   beginmain 
+	LabelString	"正文开始，不要删除本标签"
+  LabelFont
+	  Color		Red
+	  Size		Large
+	EndFont
+End
+
+InsetLayout Flex:结束正文
+  CopyStyle		Flex:开始正文
+  LatexName   stopmain 
+	LabelString	"正文结束，不要删除本标签" 
+End
+
+Style Standard
+	ParIndent             ""
+  ParSep		0.5 
+End
+
+Preamble
+\makeatletter 
+\let\appendix@orig\appendix
+\renewcommand\appendix{
+  \pagestyle{seustyle}
+  \@mainmattertrue
+  \appendix@orig
+  \titlecontentsappendix
+}
+\renewcommand\indexname{索引}
+\makeatother
+\newcommand{\beginmain}{\pagestyle{seustyle}\mainmatter\song\xiaosihao}
+\newcommand{\stopmain}{\par\backmatter}
+EndPreamble

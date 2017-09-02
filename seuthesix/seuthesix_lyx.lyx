@@ -1,0 +1,3994 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass seuthesix
+\begin_preamble
+\usepackage{hologo}
+\usepackage{pdfpages} 
+ 
+\let\oldverbatim\verbatim
+\renewenvironment{verbatim}{\color{magenta}\begin{oldverbatim}}{\end{oldverbatim}}
+\end_preamble
+\options algorithmlist, figurelist,tablelist,nomlist,phd
+\use_default_options true
+\maintain_unincluded_children false
+\begin_local_layout
+Input theorems.inc 
+\end_local_layout
+\language chinese-simplified
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 用户手册
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+手册
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ User Manual
+\end_layout
+
+\end_inset
+
+
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 开发组
+\end_layout
+
+\end_inset
+
+
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ developer group
+\end_layout
+
+\begin_layout 学院
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\SpecialChar TeX
+学院
+\end_layout
+
+\end_inset
+
+School of \SpecialChar TeX
+
+\end_layout
+
+\begin_layout 导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+高德纳
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Donald E.
+ Knuth
+\end_layout
+
+\end_inset
+
+Prof.
+\end_layout
+
+\begin_layout 合作导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+兰伯特
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+副教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Leslie Lamport
+\end_layout
+
+\end_inset
+
+Associate Prof.
+\end_layout
+
+\begin_layout 学位
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\SpecialChar TeX
+学硕士
+\end_layout
+
+\end_inset
+
+Master of \SpecialChar TeX
+
+\end_layout
+
+\begin_layout 专业
+\SpecialChar TeX
+
+\end_layout
+
+\begin_layout 基金资助
+本课题的研究获\SpecialChar LaTeX
+ project 赞助:
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.latex-project.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex UDC
+status collapsed
+
+\begin_layout Plain Layout
+000
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 分类号
+status collapsed
+
+\begin_layout Plain Layout
+000
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 密级
+status collapsed
+
+\begin_layout Plain Layout
+公开
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 学号
+status collapsed
+
+\begin_layout Plain Layout
+000000
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 二级学科
+status collapsed
+
+\begin_layout Plain Layout
+\SpecialChar LaTeX
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 答辩委员会主席
+status collapsed
+
+\begin_layout Plain Layout
+高德纳
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 评阅人
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Frank Mittlebach
+\end_layout
+
+\end_inset
+
+David Carlisle
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 答辩日期
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 学位授予日期
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+点击输入
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 首页封面
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+可选，如果不需要可以删除
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 封面
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+必选
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\SpecialChar LaTeX
+，\SpecialChar TeX
+，文档类， 学位论文
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+本文介绍如何使用
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 文档类撰写东南大学学位论文。
+\end_layout
+
+\begin_layout 英文摘要
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\SpecialChar LaTeX
+, \SpecialChar TeX
+, document class, thesis/dissertation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 英文摘要
+This work presents an introduction of how to use 
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ document class to typeset the thesis/dissertation of Southeast University.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+正文
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+绪论
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+seuthesix.cls
+\family default
+提供了符合规范的东南大学硕士与博士学位论文的\SpecialChar LaTeX
+模板。 模板的格式尽量满足东南大学研究生院和教务处的要求，当然由于水平有限其中错漏在所难免，我们欢迎东大的\SpecialChar LaTeX
+er一起参
+加开发和完善。如果您对开发和完善
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+感兴趣、有任何想法或建议，请与我们联系。该项目主页GitHub: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/zhimengfan1990/seuthesix
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+本模板基于早期许元同学发布的
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+seuthesix.cls+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+。由于其中出现不少bug，无法顺利通过编译， 因此决定进行修改。由于修改内容较大，最终决定单独发布一个新的package。为了表示两者的继承关系，
+ 新的package 取名为
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+， 即
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+eXtented version。
+\end_layout
+
+\begin_layout Section
+版权声明
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+版权所有© 2007–2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+许
+\begin_inset space \quad{}
+\end_inset
+
+元 (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+xuyuan.cn@gmail.com
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+宋翊涵 (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+syhannnn@gmail.com
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+黄小雨 (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+nobel1984@gmail.com
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+版权所有© 2016
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+樊智猛 (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+zhimengfan1990@163.com
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这一程序是自由软件，你可以遵照自由软件基金会发布的《 GNU通用公共许可 证条款第三版》来修改和重新发布这一程序，或者(根据您的选择)用任何更新
+ 的版本。发布这一程序的目的是希望它有用，但没有任何担保。甚至没有适合特定目的的隐含的担保。更详细的情况请参阅《GNU通用公共许可 证》。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.gnu.org/licenses/gpl.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fan"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+版本历史
+\end_layout
+
+\begin_layout Description
+1.0 2008/03/19，2016/01/11，基于
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+构建新的
+\begin_inset Preview
+
+\begin_layout Standard
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+文档类。放弃
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+的xeCJK方案 ，直接采用
+\family typewriter
+ctexrep.cls
+\family default
+构建
+\family typewriter
+seuthesix.cls
+\family default
+。 重新编写参考文献格式
+\family typewriter
+seuthesix.bst
+\family default
+。一次性生成A3大封面、A4封面和论文内容，简化了操作。 放弃对本科学位论文的支持(精力有限)。
+\end_layout
+
+\begin_layout Description
+1.0.1 2016/03/20，修复了1.0版本中的一些小bugs。 
+\end_layout
+
+\begin_layout Chapter
+下载和安装
+\end_layout
+
+\begin_layout Section
+下载
+\end_layout
+
+\begin_layout Standard
+本项目最新源码可以到本项目在GitHub中找到，访问
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/zhimengfan1990/seuthesix
+\end_layout
+
+\end_inset
+
+下载。各发布版本可在\SpecialChar LaTeX
+官方 CTAN：
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.ctan.org/pkg/seuthesix
+\end_layout
+
+\end_inset
+
+下载。
+\end_layout
+
+\begin_layout Section
+安装
+\end_layout
+
+\begin_layout Standard
+将宏包中的文件放在当前工作目录(与
+\family typewriter
+.tex
+\family default
+文件放在同一目录下)即可，当然也可以安装到\SpecialChar TeX
+系统中，不过需要注意是参考文献样式文件
+\family typewriter
+.bst
+\family default
+必须置于 
+\family typewriter
+TEXMF/bibtex/bst
+\family default
+目录或子目 录下。
+\end_layout
+
+\begin_layout Standard
+本模板在\SpecialChar TeX
+Live 2015(Windows 7 和 Linux Mint 17.1 环境下) 通过
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hologo{XeLaTeX}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+编译通过。注意，若在Linux 上编译， 由于Linux缺少所依赖的字体(宋体、黑体、楷体、Times New Roman)，因此需要用户自己安装这些字体，否则
+编译时会报错。 将Windows中的字体复制到Linux中安装即可。
+\end_layout
+
+\begin_layout Standard
+原则上，只要安装了\SpecialChar TeX
+Live 2015和宋体、黑体、楷体、Times New Roman等字体，本 模板也支持OSX。当然，我们并没有做过OSX上的测试。
+\end_layout
+
+\begin_layout Standard
+如有您在使用中有任何问题，欢迎与我们联系。
+\end_layout
+
+\begin_layout Chapter
+使用说明
+\end_layout
+
+\begin_layout Quote
+东南大学硕士与博士学位论文应包括如下部分：
+\end_layout
+
+\begin_layout Enumerate
+中文封面
+\end_layout
+
+\begin_layout Enumerate
+中文页面
+\end_layout
+
+\begin_layout Enumerate
+英文页面
+\end_layout
+
+\begin_layout Enumerate
+论文独创性声明和使用授权声明
+\end_layout
+
+\begin_layout Enumerate
+中文内容提要及关键词
+\end_layout
+
+\begin_layout Enumerate
+英文内容提要及关键词
+\end_layout
+
+\begin_layout Enumerate
+目录
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{符号、变量、缩略词等本论文专用术语的注释表}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+正文；
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{致谢}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+参考文献 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{附录}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{索引（中、英文）}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{作者简介（包括在学期间发表的论文和取得的学术成果清单）}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{后记）}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+并按此顺序排列，其中
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{加方框的条目}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+为可选。
+\end_layout
+
+\begin_layout Section
+模板整体框架
+\end_layout
+
+\begin_layout Standard
+使用
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+模板的整体框架如下所示，其中
+\family typewriter
+<...>
+\family default
+表示可替换的文本(replaceable text)。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+documentclass[figurelist,tablelist,algorithmlist,nomlist,masters]{seuthesix}
+\end_layout
+
+\begin_layout Verbatim
+
+%文档开始，指定选项
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+usepackage{<hologo>}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+usepackage{<pdfpages>}%载入更多宏包
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{document}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+categorynumber{<000>} % 分类采用《中国图书资料分类法》
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+UDC{<000>}            %《国际十进分类法UDC》的类号
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+secretlevel{<公开>}    %学位论文密级分为"公开"、"内部"、"秘密"和"机密"四种
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+studentid{<000000>}   %学号要完整，前面的零不能省略。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+title{<
+\backslash
+seuthesix 用户手册>}{<手册>}{<
+\backslash
+seuthesix User Manual>}{<
+\backslash
+seuthesix>}
+\end_layout
+
+\begin_layout Verbatim
+
+%中文标题，中文副标题，英文标题，英文副标题， 副标题没有可以置为空， 
+\end_layout
+
+\begin_layout Verbatim
+
+%即 
+\backslash
+title{<
+\backslash
+seuthesix 用户手册>}{}{<
+\backslash
+seuthesix User Manual>}{}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+author{<
+\backslash
+seuthesix 开发组>}{<
+\backslash
+seuthesix developer group>}
+\end_layout
+
+\begin_layout Verbatim
+
+%作者中英文姓名
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+advisor{<高德纳>}{<教授>}{<Donald E.
+ Knuth>}{<Prof.>}
+\end_layout
+
+\begin_layout Verbatim
+
+%导师中英文姓名与职称
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+coadvisor{<兰伯特>}{<副教授>}{<Leslie Lamport>}{<Associate Prof.>} 
+\end_layout
+
+\begin_layout Verbatim
+
+%副导师中英文姓名与职称，若没有，可以不使用该命令
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+degreetype{<
+\backslash
+TeX 学硕士>}{<Master of 
+\backslash
+TeX>} 
+\end_layout
+
+\begin_layout Verbatim
+
+%详细学位类型，如工学硕士，Master of Engineering
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+major{<
+\backslash
+TeX>}%一级学科名
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+submajor{<
+\backslash
+LaTeX>}%二级学科名
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+defenddate{<
+\backslash
+today>}%答辩日期
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+authorizedate{<
+\backslash
+today>}%授予学位日期
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+committeechair{<高德纳>}%答辩委员会主席姓名
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+reviewer{<Frank Mittlebach>}{<David Carlisle>}%两位评阅人姓名
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+department{<
+\backslash
+TeX{}学院>}{<School of 
+\backslash
+TeX>}
+\end_layout
+
+\begin_layout Verbatim
+
+%学院名称
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+seuthesisthanks{<本课题的研究获
+\backslash
+LaTeX{ }project 赞助:%
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+url{www.latex-project.org}>}
+\end_layout
+
+\begin_layout Verbatim
+
+%致谢信息，没有可以不写
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+makebigcover%生成A3大封面
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+makecover% 生成封面
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{abstract}{<
+\backslash
+TeX, 
+\backslash
+LaTeX, 文档类， 学位论文>}
+\end_layout
+
+\begin_layout Verbatim
+
+<本文介绍如何使用
+\backslash
+seuthesix 文档类撰写东南大学学位论文。>
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{abstract}
+\end_layout
+
+\begin_layout Verbatim
+
+%生成中文摘要和关键词
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{englishabstract}{<
+\backslash
+TeX, 
+\backslash
+LaTeX, document class， thesis/dissertation>}
+\end_layout
+
+\begin_layout Verbatim
+
+<This work presents an introduction of how to use 
+\backslash
+seuthesix document class to 
+\end_layout
+
+\begin_layout Verbatim
+
+typeset the thesis/dissertation of Southeast University.>
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{englishabstract}
+\end_layout
+
+\begin_layout Verbatim
+
+%生成英文摘要和关键词
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+tableofcontents%生成目录
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+setnomname{<术语表名称>}%设置术语表的名称，用于
+\backslash
+listofothers
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+listofothers%生成图、表等目录，没有可以不写
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+mainmatter
+\end_layout
+
+\begin_layout Verbatim
+
+%开始正文
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+chapter{<绪论>}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+section{<研究背景>}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+section{<本论文的工作>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+chapter{<...>}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+section{<...>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+chapter{<全文总结>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+acknowledgement
+\end_layout
+
+\begin_layout Verbatim
+
+<感谢每一个给予帮助的人...>
+\end_layout
+
+\begin_layout Verbatim
+
+致谢，没有可以不写
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+thesisbib{<bib文件名>}
+\end_layout
+
+\begin_layout Verbatim
+
+参考文献
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+appendix
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+chapter{<...>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+chapter{<...>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+%附录部分，没有可以不写
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+resume{<作者简介>}
+\end_layout
+
+\begin_layout Verbatim
+
+<简介内容...>
+\end_layout
+
+\begin_layout Verbatim
+
+%作者简介，没有可以不写
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{document}
+\end_layout
+
+\begin_layout Verbatim
+
+%文档到此结束
+\end_layout
+
+\begin_layout Section
+详细说明
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+documentclass[masters|phd|engineering]{seuthesix}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令使用
+\family typewriter
+seuthesix
+\family default
+文档类，其中用
+\backslash
+
+\family typewriter
+masters, phd, engieering
+\family default
+ 来分别表示学术硕士，博士，和工程硕士的学位论文。三者的区别主要在于封面的logo不同。此外，博士学位论文称为Dissertation，而硕士学位论文(包括学术
+型和工程硕士)称为Thesis。例如，学术型硕士应该是
+\family typewriter
+
+\backslash
+documentclass[masters]{seuthesix}
+\family default
+。默认为
+\family typewriter
+masters
+\family default
+。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+documentclass[masters,nocolorlinks]{seuthesix}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+除了这三项之外，还可以添加别的选项。如
+\family typewriter
+nocolorlinks
+\family default
+用于最终论文付梓(打印)时去除
+\family typewriter
+hyperref
+\family default
+宏包。产生的颜色链接（用方框表示，但该方框在打印时无效），使得打印的纸质版在这些地方更清晰。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+documentclass[masters,nocolorlinks,figurelist,tablelist,algorithmlist,nomlist]%
+\end_layout
+
+\begin_layout Verbatim
+
+{seuthesix}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+如果需要在目录之后产生插图目录、表格目录、算法目录、术语与符号目录，需要分别提供
+\family typewriter
+figurelist,tablelist,algorithmlist,nomlist
+\family default
+选项来指定。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+listofothers
+\end_layout
+
+\begin_layout Standard
+若这四个目录中至少有一个，还需要给出
+\family typewriter
+
+\backslash
+listofothers
+\family default
+命令来真正将该表格排版出来。若四个目录都不需要，则无需给出这四个选项和
+\family typewriter
+
+\backslash
+listofothers
+\family default
+命令。此外，基本参数，如纸张大小，页面布局等已经在文档类中指定，用户无需再次指定。对于Windows 系统，系统默认编码方式为GBK(cp936)，因此需要注意
+使用编辑器将源文件以UTF8 编码保存，否则会出现乱码。对于Linux, 系统默认编码就是UTF8, 因此不存在这个问题。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+usepackage{<package_name>}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+如果用户还需要载入更多的宏包，可以通过这个命令载入。但是前提是不能破坏
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+文档类的基本参数设定。一般来讲，是不需要载入其他宏包的，除非用户知道自己到底在干什么。
+\end_layout
+
+\begin_layout Standard
+为了生成封面，需要用户提供一些基本信息。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+categorynumber{<cat_number>}
+\end_layout
+
+\begin_layout Standard
+用于提供分类号。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+UDC{<udc>
+\end_layout
+
+\begin_layout Standard
+用于提供UDC。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+secretlevel{<level>}
+\end_layout
+
+\begin_layout Standard
+用于提供密级。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+studentid{<id>}
+\family default
+\color inherit
+用于提供学号，6位数，前导0不能省略。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+title{<ch_title>}{<ch_subtitle>}{<en_title>}{<en_subtitle>}
+\end_layout
+
+\begin_layout Standard
+四个参数分别提供中文标题，中文副标题，英文标题，英文副标题。若不需要副标题，可将其置为空。例如没有中文和英文副标题，则可简化为
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+title{<ch_title>}{}{<en_title>}{}
+\family default
+\color inherit
+。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+author{<ch_name>}{<en_name>}
+\end_layout
+
+\begin_layout Standard
+提供作者姓名中英文姓名。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+advisor{<ch_name>}{<ch_title>}{<en_name>}{<en_title>}
+\end_layout
+
+\begin_layout Standard
+用于提供导师中文姓名，中文职称，英文姓名，英文职称。如
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+
+\backslash
+advisor{张三}{教授}{Zhang San}{Prof.}
+\family default
+。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+coadvisor{<ch_name>}{<ch_title>}{<en_name>}{<en_title>}
+\end_layout
+
+\begin_layout Standard
+用于提供副导师中文姓名，中文职称，英文姓名，英文职称。如
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+coadvisor{李四}{副教授}{Lee Si}{Associate Prof.}
+\family default
+\color inherit
+。
+\end_layout
+
+\begin_layout Standard
+该命令可以不用，当没有副导师时，无需使用该命令。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+degreetype{<ch_type>}{<en_type>}
+\end_layout
+
+\begin_layout Standard
+用于提供中英文的学位类型。如
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+degreetype{工学硕士}{Master of Engineering}
+\family default
+\color inherit
+。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+verb+
+\backslash
+major{<mjr>}
+\end_layout
+
+\begin_layout Standard
+用于提供一级学科名称，如信息与通信工程。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+submajor{<sub_mjr>}
+\end_layout
+
+\begin_layout Standard
+用于提供二级学科名称，如通信与信息系统。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+defenddate{<YYYY 年 MM 月 dd 日>}
+\end_layout
+
+\begin_layout Standard
+用于提供答辩日期，包括年、月、日。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+authorizedate{<YYYY 年 MM 月 dd 日>}
+\end_layout
+
+\begin_layout Standard
+用于提供学位授予日期。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+committeechair{<name>}
+\end_layout
+
+\begin_layout Standard
+用于提供答辩委员会主席的姓名(中文)。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+reviewer{<name_A>}{<name_B>}
+\end_layout
+
+\begin_layout Standard
+用于提供两位评阅人的中文姓名。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+department{<dpt_name>}
+\end_layout
+
+\begin_layout Standard
+用于提供学院名称，如信息科学与工程学院。
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+
+\backslash
+seuthesisthanks{<thanks_words>}
+\end_layout
+
+\begin_layout Standard
+用于提供致谢语，一句话。
+\end_layout
+
+\begin_layout Standard
+将会出现在中文封面页脚处。如
+\end_layout
+
+\begin_layout Standard
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+verb+
+\backslash
+seuthesisthanks{本课题的研究受国家高技术发展计划(863计划)2016XXXXXX 资助}+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+若没有，可以不使用该命令。注意，这不是论文末尾处的致谢章。
+\end_layout
+
+\begin_layout Standard
+提供了相关信息之后，就可以利用这条命令来生成A3大封面。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+makebigcover
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+这条命令生成A4中文封面和英文封面。 
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+makecover 
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+这个环境用于生成中文摘要。该环境带一个参数，即中文关键词，关键词为逗号分隔表(comma seperated list)的形式。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{abstract}{<ch_keywords>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{abstract}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+这个环境用于生成英文摘要。该环境带一个参数，即英文关键词，关键词为逗号分隔表(comma seperated list)的形式。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{englishabstract}{<en_keywords>}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{englishabstract}  
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+setnomname{<name>}
+\end_layout
+
+\begin_layout Standard
+用于设置术语表的名称，如“术语与数学符号约定”。该命令用于生成术语表。如不需要术语表，则不用使用该命令。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+tableofcontents
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令用于生成目录。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+listofothers
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令用于生成插图目录，表格目录，算法目录，术语目录(术语表)。插图目录、表格目录、算法目录名称都是固定的。术语目录名称考虑到不同学科有差异，可通过
+\family typewriter
+
+\backslash
+setnomname{<name>}
+\family default
+进行设置。同时，该命令最终会生成四个目录中的哪几个是通过文档类的选项来指定的，前文已经讲过。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+mainmatter
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令切换到正文状态。页码从阿拉伯数字1开始，此前页码为罗马数字形式。给出以上命令之后，就可以开始正文章节的内容。正文章节遵循普通
+\backslash
+LaTeX 的语法规则即可。
+\end_layout
+
+\begin_layout Standard
+完成正文章节之后，开始致谢、参考文献、附录、作者简介等。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+acknowledgement
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令开启一个新的章(没有章编号)，之后用户可以写入致谢内容。致谢内容自成一章。该部分可选。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+thesisbib{<filename>}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令用于生成参考文献，采用
+\backslash
+hologo{BibTeX}工具自动生成。为此，用于需提供
+\backslash
+texttt{.bib}数据库文件名称作为该命令的参数，不需要包含扩展名。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+appendix
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令切换到目录状态。此后的每个
+\family typewriter
+
+\backslash
+chapter{<...>}
+\family default
+都会变成一个附录。章编号变为“附录A，附录B”，等等。该部分及后续的附录章为可选。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+resume{<title>}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+该命令用于生成作者简历，自成一章。通过该命令 的参数提供该章的标题。简历的具体内容由用户输入。该部分可选。
+\end_layout
+
+\begin_layout Chapter
+注意事项
+\end_layout
+
+\begin_layout Section
+文献引用
+\end_layout
+
+\begin_layout Standard
+根据要求，文献引用应为数字标签(numerical label)，上标形式。但是有时也会用到正常形式，即非上标形式，用于正文叙述。为此分别提供了两个命令来实现。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+cite{<citation_key>}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+用于实现上标的数字形式文献引用
+\begin_inset CommandInset citation
+LatexCommand cite
+key "knuth"
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+citen{<citation_key>}
+\end_layout
+
+\begin_layout Standard
+用于实现正常(非上标，normal)的数字形式文献引用
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citen{mittlebach}
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Section
+参考文献格式
+\end_layout
+
+\begin_layout Standard
+见
+\family typewriter
+seuthesix.bst
+\family default
+的文档: 本文第
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "bst"
+
+\end_inset
+
+章。
+\end_layout
+
+\begin_layout Section
+图表格式处理
+\end_layout
+
+\begin_layout Standard
+图名、表名字体字号已经有文档类 设定好，用户无需再次设定。但是，用户需要让它居中。图名位于图下方，表名位于表上方。图片文件可直接置于当前工作目录，也可置于当前工
+作目录的
+\family typewriter
+figures
+\family default
+子目录下(用户根据需要，自己创建该子目录)。图片名称只需要给出名称和扩展名，无需给出完整的路径。图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "logo"
+
+\end_inset
+
+给出了一个图的例子。表
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "entrytable"
+
+\end_inset
+
+给出了一个表的例子。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+includegraphics[...]{...}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+caption{...}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+label{...}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{figue}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{table}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+caption{...}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+label{...}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{tabular}{...}
+\end_layout
+
+\begin_layout Verbatim
+
+...
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{tabular}.
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{table}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ logo
+\begin_inset CommandInset label
+LatexCommand label
+name "logo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chuhao
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+算法格式处理
+\end_layout
+
+\begin_layout Standard
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+文档类采用了
+\family typewriter
+algorithm, algorithmic
+\family default
+ 两个宏包来设置算法排版格式。详细使用方法参见这两个宏包的手册。这里给出一个简单的例子。
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{algorithm}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+caption{
+\backslash
+label{algoinsight}如何使用
+\backslash
+seuthesix 文档类}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+begin{algorithmic}[1]
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+STATE if (具备一定的
+\backslash
+LaTeX 使用经验) else (stop here)
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+STATE 有耐心阅读文档
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+STATE 仔细阅读本文档
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+STATE 在使用中熟悉它
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+end{algorithm}
+\end_layout
+
+\begin_layout Verbatim
+
+\end_layout
+
+\begin_layout Standard
+以上代码给出了算法
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "algoinsight"
+
+\end_inset
+
+的排版结果。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+LyX目前不支持algorithmic包，
+\begin_inset Newline newline
+\end_inset
+
+所以直接输入LaTeX 代码
+\end_layout
+
+\end_inset
+
+
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}[1]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE if (具备一定的
+\backslash
+LaTeX 使用经验) else (stop here)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 有耐心阅读文档
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 仔细阅读本文档
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 在使用中熟悉它
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "algoinsight"
+
+\end_inset
+
+如何使用
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+文档类
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+术语生成
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+nomenclature{LTE}{Long Term Evolution}
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+nomenclature[noprefix]{$
+\backslash
+mathcal{CN}(0, C)$}{协方差矩阵为$C$的循环对称复高斯分布} 
+\end_layout
+
+\begin_layout Standard
+术语生成借助
+\family typewriter
+nomencl
+\family default
+宏包。以上代码例子的排版结果在术语表中。对于数学符号，为使得它排在普通术语的后面，需要加上
+\family typewriter
+noprefix
+\family default
+选项。编译时，第一次
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+xelatex <filename>
+\end_layout
+
+\begin_layout Standard
+之后执行 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+makeindex <filename>.nlo -s nomencl.ist -o <filename> .nls
+\end_layout
+
+\begin_layout Standard
+然后再次执行
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+xelatex <filename>
+\end_layout
+
+\begin_layout Standard
+一次。实际上，考虑到参考文献的生成，最后应该执行
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color magenta
+xelatex <filename>
+\end_layout
+
+\begin_layout Standard
+至少两次。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 术语与符号
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+LTE
+\end_layout
+
+\end_inset
+
+Long Term Evolution
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 术语与符号
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+noprefix
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathcal{CN}(0,C)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+协方差矩阵为
+\begin_inset Formula $C$
+\end_inset
+
+的循环对称复高斯分布
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\family typewriter
+seuthesix.bst
+\family default
+参考文献格式
+\begin_inset CommandInset label
+LatexCommand label
+name "bst"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+简介
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+seuthesix.bst
+\family default
+ 是符合东南大学硕士和博士毕业论文参考文献格式要求的 bibliography style。由于该文献格式是数字标签(numeric label)格式，且无需排
+序。因此，它是在标准的BibTeX格式
+\family typewriter
+unsrt.bst
+\family default
+的基础上发展而来。同时，
+\family typewriter
+seuthesix.bst
+\family default
+文献格式不支持
+\family typewriter
+crossref
+\family default
+字段。该文献格式支持中英文两种语言，采用中英文分离，分别进行处理的思想。对于中文文献的entry，要求在
+\family typewriter
+.bib
+\family default
+文献数据库中该entry 提供
+\family typewriter
+language
+\family default
+ field，其取值任意，但为了保持一致性，建议设为
+\family typewriter
+language={zh}
+\family default
+，或
+\family typewriter
+language="zh"
+\family default
+。
+\end_layout
+
+\begin_layout Section
+支持的Entry type
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+seuthesix.bst
+\family default
+支持以下几种不同的entry type。
+\end_layout
+
+\begin_layout Description
+book 书籍
+\end_layout
+
+\begin_layout Description
+article 期刊文章
+\end_layout
+
+\begin_layout Description
+inproceedings/conference 会议文章
+\end_layout
+
+\begin_layout Description
+mastersthesis 硕士学位论文
+\end_layout
+
+\begin_layout Description
+phdthesis 博士学位论文
+\end_layout
+
+\begin_layout Description
+patent 专利
+\end_layout
+
+\begin_layout Description
+standard 标准
+\end_layout
+
+\begin_layout Description
+news 报纸新闻
+\end_layout
+
+\begin_layout Description
+misc 杂项，包括电子媒体及其他未能识别的entry type
+\end_layout
+
+\begin_layout Section
+各 entry type 所支持的field
+\end_layout
+
+\begin_layout Standard
+不同的entry type所支持的field 不尽相同。对于每个entry type 而言，其中的field 可分为三类：required, optional,
+ ignored。required field 应该必须出现，否则BibTeX 会发出warning(由bst中的output.check函数发出)，且最终得到的
+格式不能保证美观。optional field 可选，若未出现，不会导致BibTeX warning。ignored field 不起任何作用，被BibTeX
+ 忽略。在entry type 对应的bibtex 函数(如 
+\family typewriter
+FUNCTION {article}
+\family default
+)中未使用的 field 都属于 ignored field。
+\end_layout
+
+\begin_layout Standard
+下面列出各entry type所支持的field(即required field 和optional field)，其中required field使用黑体。如
+表
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "entrytable"
+
+\end_inset
+
+所示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+不同 entry type 支持的 field
+\begin_inset CommandInset label
+LatexCommand label
+name "entrytable"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="none" valignment="top" width="10cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Entry type 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Fields
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+article 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, journal, year,
+\series default
+ volume, number, pages, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+book 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author/editor, title, 
+\series default
+edition, translator, address, publisher, year, pages, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+inproceedings(conference) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, 
+\series default
+editor, booktitle, address, publisher, year, pages, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mastersthesis 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, address, school, year, 
+\series default
+note,
+\series bold
+ lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+phdthesis 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, address, school, year, 
+\series default
+note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+patent 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+applicant
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+
+\series bold
+, title, 
+\series default
+littype
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+, country, pid
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+, year, month, day, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+standard 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, 
+\series default
+stdcode
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotemark
+\end_layout
+
+\end_inset
+
+, address, publisher, year, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+news 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+author, title, newspaper, 
+\series default
+year, month, day, pages, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+misc 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+author, title, url, year, month, day, note, 
+\series bold
+lang
+\series default
+uage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+表中直接插入脚注不显示，所以用了ERT输入
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[1]{专利申请人}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[2]{专利文献类型}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[3]{专利号}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotetext[4]{标准号}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+需要注意的是，若为英文参考文献，则language
+\begin_inset space \thinspace{}
+\end_inset
+
+field可以省略，而对于中文参考文献language
+\begin_inset space \thinspace{}
+\end_inset
+
+field则必须出现在
+\family typewriter
+.bib
+\family default
+文献数据库中。其取值任意，但建议设为
+\family typewriter
+language={zh}
+\family default
+，或
+\family typewriter
+language="zh"
+\family default
+，以保持一致性。这就是表
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "entrytable"
+
+\end_inset
+
+中的
+\series bold
+lang
+\series default
+uage一半黑体一半非黑体的原因。 参考文献部分给出了很多文献格式的例子。
+\end_layout
+
+\begin_layout Chapter
+全文总结
+\end_layout
+
+\begin_layout Standard
+本文主要介绍了如何使用
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+文档类来对东南大学硕士与博士学位论文进行排版。
+\end_layout
+
+\begin_layout Standard
+当然，
+\backslash
+seuthesix 肯定存在许多不足的地方，希望各位读者予以指正。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Acknowledgement
+status open
+
+\begin_layout Plain Layout
+自从发布之后，得到许多用户的支持，同时我们也收到不少用户宝贵的建议。其中一些建议已经帮助我们改进了
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+。感谢每一位支持
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+的人！ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "seuthesix"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+东南大学研究生学位论文的格式规定
+\end_layout
+
+\begin_layout Standard
+见下一页
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename figures/rules.pdf
+	extra LaTeX "pages=-,fitpaper"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+最后是作者简介
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 作者简介
+作者攻读博士学位期间的研究成果
+\end_layout
+
+\begin_layout Standard
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+开发组，希望感兴趣的同学加入。
+\end_layout
+
+\end_body
+\end_document

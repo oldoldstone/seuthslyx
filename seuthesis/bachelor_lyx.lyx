@@ -1,0 +1,609 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass seuthesis
+\begin_preamble
+
+\end_preamble
+\options nocolorlinks,bachelor
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex gind
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+论文中文标题
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Thesis Title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+姓
+\begin_inset space \quad{}
+\end_inset
+
+名
+\end_layout
+
+\end_inset
+
+Author's Name
+\end_layout
+
+\begin_layout 学院
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+院系名称
+\end_layout
+
+\end_inset
+
+department name
+\end_layout
+
+\begin_layout 导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+导师姓名
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Advisor's Name
+\end_layout
+
+\end_inset
+
+Prof.
+\end_layout
+
+\begin_layout 合作导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+副导师
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+副教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Co-advisor's Name
+\end_layout
+
+\end_inset
+
+Associate Prof.
+ 
+\end_layout
+
+\begin_layout 专业
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+10em
+\end_layout
+
+\end_inset
+
+控制理论与控制工程
+\end_layout
+
+\begin_layout Address
+河海院2楼
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 完成时间
+status open
+
+\begin_layout Plain Layout
+2007.11—2008.6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 封面
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+这个不能删
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+关键字1, 关键字2, 关键字3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+中文摘要。
+\end_layout
+
+\begin_layout 英文摘要
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+keyword1, keyword2, keyword3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 英文摘要
+This is English abstract.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 符号与术语
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+符号与术语
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 符号与术语
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+本论文专用术语(符号、变量、缩略词等)的注释表
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="8cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+符号、变量、缩略词等
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+涵义
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+s 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+状态(state)。一个表示环境的数据。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 开始正文
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+绪论
+\end_layout
+
+\begin_layout Section
+研究的主要内容
+\end_layout
+
+\begin_layout Subsection
+...
+\end_layout
+
+\begin_layout Subsubsection
+.....
+\end_layout
+
+\begin_layout Section
+需要解决的问题
+\end_layout
+
+\begin_layout Standard
+使得论文符合要求
+\begin_inset CommandInset citation
+LatexCommand cite
+key "seugs:standard"
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Chapter
+...
+ 
+\end_layout
+
+\begin_layout Standard
+....
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 结束正文
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Acknowledgement
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+致
+\begin_inset space \quad{}
+\end_inset
+
+谢
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Acknowledgement
+感谢....
+\end_layout
+
+\begin_layout Acknowledgement
+\noindent
+\align right
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "6cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+作者
+\begin_inset Newline newline
+\end_inset
+
+时间地点
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+结束致谢
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "seuthesis"
+options "seuthesis"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+第一个附录
+\end_layout
+
+\begin_layout Section
+...
+\end_layout
+
+\begin_layout Chapter
+第二个附录
+\end_layout
+
+\begin_layout Section
+...
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 作者简介
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+作者简介
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Section*
+发表论文
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“灵犀一指：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“九阳神功：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Section*
+申请的专利
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“灵犀一指：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“九阳神功：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

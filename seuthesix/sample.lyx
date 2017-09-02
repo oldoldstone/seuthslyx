@@ -1,0 +1,1304 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass seuthesix
+\begin_preamble
+%这段是章节首页显示页眉，如果不需要可以删除或者注释掉 
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{seustyle}% original style: plain
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter} 
+\makeatother 
+\end_preamble
+\options algorithmlist, figurelist,tablelist,nomlist,master
+\use_default_options true
+\maintain_unincluded_children false
+\begin_local_layout
+Input theorems.inc
+\end_local_layout
+\language chinese-simplified
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+灵犀一指心法
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+The theory of powerful fingers
+\end_layout
+
+\end_inset
+
+powerful fingers
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+陆小凤
+\end_layout
+
+\end_inset
+
+Phoenix Land, Jr.
+\end_layout
+
+\begin_layout 学院
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+东南大学武学院
+\end_layout
+
+\end_inset
+
+School of kung fu
+\end_layout
+
+\begin_layout 导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+夜帝
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+King Night
+\end_layout
+
+\end_inset
+
+Prof.
+\end_layout
+
+\begin_layout 合作导师
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+楚留香
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+副教授
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Perfume Tsu
+\end_layout
+
+\end_inset
+
+Associate Prof.
+\end_layout
+
+\begin_layout 学位
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+硕士
+\end_layout
+
+\end_inset
+
+Master
+\end_layout
+
+\begin_layout 专业
+内功
+\end_layout
+
+\begin_layout 基金资助
+本课题的研究获郭靖-黄蓉降龙基金、杨过-小龙女黯然销魂基金以及郭襄的倚天基金资助
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex UDC
+status collapsed
+
+\begin_layout Plain Layout
+000
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 分类号
+status collapsed
+
+\begin_layout Plain Layout
+000
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 密级
+status collapsed
+
+\begin_layout Plain Layout
+公开
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 学号
+status collapsed
+
+\begin_layout Plain Layout
+130623
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 二级学科
+status collapsed
+
+\begin_layout Plain Layout
+内功心法
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 评阅人
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+张三丰
+\end_layout
+
+\end_inset
+
+黄药师
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 答辩日期
+status collapsed
+
+\begin_layout Plain Layout
+2017年9月1日
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 答辩委员会主席
+status collapsed
+
+\begin_layout Plain Layout
+夜帝
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex 学位授予日期
+status collapsed
+
+\begin_layout Plain Layout
+2017年9月1日
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+点击输入
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 首页封面
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+可选，如果不需要可以删除
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 封面
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+必选
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+武功，心法，内功，灵犀一指
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+灵犀一指是一种非常厉害的武功。
+\end_layout
+
+\begin_layout 英文摘要
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+kung fu, theory, fundamental kung fu, powerful fingers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 英文摘要
+powerful fingers is a kind of powerful kung fu.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+正文
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+绪论
+\end_layout
+
+\begin_layout Section
+研究背景
+\end_layout
+
+\begin_layout Standard
+天下武功，无坚不破，唯快不破。灵犀一指属于快而非坚之武学。
+\end_layout
+
+\begin_layout Section
+本论文的工作
+\end_layout
+
+\begin_layout Standard
+本论文的研究对象为灵犀一指，着重研究其中的内功心法。 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex 术语与符号
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+LTE
+\end_layout
+
+\end_inset
+
+Long Term Evolution
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex 术语与符号
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+noprefix
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathcal{CN}(0,C)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+协方差矩阵为
+\begin_inset Formula $C$
+\end_inset
+
+的循环对称复高斯分布
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+武学与江湖
+\end_layout
+
+\begin_layout Section
+引言
+\end_layout
+
+\begin_layout Standard
+行走江湖义当先,路见不平,拔刀相助。
+\end_layout
+
+\begin_layout Section
+人与江湖
+\end_layout
+
+\begin_layout Standard
+有人的地方就有江湖，江湖险恶。 
+\end_layout
+
+\begin_layout Section
+武学的博大精深
+\end_layout
+
+\begin_layout Standard
+天下武学，博大精深。若心生贪念，修行邪术，终将走火入魔。 
+\end_layout
+
+\begin_layout Section
+本章小结
+\end_layout
+
+\begin_layout Standard
+本章介绍了武学，江湖与人的关系。为后续章节的内容打下了基础。 
+\end_layout
+
+\begin_layout Chapter
+内功
+\end_layout
+
+\begin_layout Section
+引言
+\end_layout
+
+\begin_layout Standard
+内功是指提升人内力的武功,与招式相对。内功是招式的理论,招式是内功的技术。
+\end_layout
+
+\begin_layout Section
+内功的基本原理
+\end_layout
+
+\begin_layout Standard
+气聚丹田,心无杂念方可修行内功。
+\end_layout
+
+\begin_layout Section
+内功与喝酒的关系
+\end_layout
+
+\begin_layout Standard
+研究表明,适量饮酒有助于修炼内功。
+\end_layout
+
+\begin_layout Section
+本章小结
+\end_layout
+
+\begin_layout Standard
+本章主要介绍了内功的基本概念、原理。 
+\end_layout
+
+\begin_layout Chapter
+心法
+\end_layout
+
+\begin_layout Section
+引言
+\end_layout
+
+\begin_layout Standard
+内功即是武学的理论,而心法就是内功的核心部分。
+\end_layout
+
+\begin_layout Section
+如何提高内功
+\end_layout
+
+\begin_layout Standard
+气聚丹田,心无杂念方可修行内功。
+\end_layout
+
+\begin_layout Section
+本章小结
+\end_layout
+
+\begin_layout Standard
+本章介绍了心法和内功的关系。
+\end_layout
+
+\begin_layout Chapter
+灵犀一指
+\end_layout
+
+\begin_layout Section
+引言
+\end_layout
+
+\begin_layout Standard
+灵犀一指是陆小凤自创的一门武功。这种武功不需要任何兵器,只需徒手就可将敌 人制服。
+\end_layout
+
+\begin_layout Section
+灵犀一指的起源
+\end_layout
+
+\begin_layout Standard
+陆小凤年轻时热衷武学,在西域一代游历时突发灵感,创立了灵犀一指,如图5.1所 示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/lxfbook.jpg
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+灵犀一指要诀
+\end_layout
+
+\begin_layout Standard
+灵犀一指是一种以柔制刚的武功,一般人很难领悟其中的精妙之处,因此很难学会。实际上,它的要诀就是将内力汇聚在手指经脉之内,提高内力的密度,然后在
+ 瞬间释放出来,以致达到将敌人兵器折断的力道。如表
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:lxfinsight"
+
+\end_inset
+
+所示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:lxfinsight"
+
+\end_inset
+
+灵犀一指的要诀
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+步骤
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+操作
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+气聚丹田
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+将丹田之气注入手指经脉
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+瞬间释放
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+将敌人制服
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+也可用算法表示,如算法
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "algoinsight"
+
+\end_inset
+
+所示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+LyX目前不支持algorithmic包，
+\begin_inset Newline newline
+\end_inset
+
+所以直接输入LaTeX 代码
+\end_layout
+
+\end_inset
+
+
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}[1]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE if (具备一定的
+\backslash
+LaTeX 使用经验) else (stop here)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 有耐心阅读文档
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 仔细阅读本文档
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+STATE 在使用中熟悉它
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "algoinsight"
+
+\end_inset
+
+如何使用
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+seuthesix{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+文档类
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+也可用数学公式表示,如式
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mc2"
+
+\end_inset
+
+所示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+E=mc^{2}\label{eq:mc2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+本章小结
+\end_layout
+
+\begin_layout Standard
+本章介绍了灵犀一指的要诀部分
+\end_layout
+
+\begin_layout Chapter
+全文总结
+\end_layout
+
+\begin_layout Standard
+本文介绍了灵犀一指的起源，重要性和其中的要诀。 本章对全文工作进行了回顾和总结。
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ancora2007down"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Acknowledgement
+status open
+
+\begin_layout Plain Layout
+感谢亲爱的导师，感谢可爱的母校....
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align right
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "6cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+作者
+\begin_inset Newline newline
+\end_inset
+
+时间地点
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "seuthesix"
+options "GBT7714-2005"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+欧几里得第二定理的证明
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+fdsff
+\end_layout
+
+\end_inset
+
+欧几里得第二定理 (素数有无穷多个)
+\begin_inset Newline newline
+\end_inset
+
+证明：用反证法。假设素数有有限个(
+\begin_inset Formula $N$
+\end_inset
+
+个)，记为
+\begin_inset Formula $p_{1},p_{2},\dots,p_{N}$
+\end_inset
+
+。则我们构造一个新的数，
+\begin_inset Formula 
+\[
+n=p_{1}p_{2}\dots p_{N}+1.
+\]
+
+\end_inset
+
+ 由于
+\begin_inset Formula $p_{i},i=1,2,\dots,N$
+\end_inset
+
+为素数，则一定不为
+\begin_inset Formula $1$
+\end_inset
+
+。于是对于任意的
+\begin_inset Formula $p_{i},i=1,2,\dots,N$
+\end_inset
+
+，有 
+\begin_inset Formula 
+\[
+p_{i}\not|n
+\]
+
+\end_inset
+
+ 这表明，要么
+\begin_inset Formula $n$
+\end_inset
+
+本身为素数，要么
+\begin_inset Formula $n$
+\end_inset
+
+为合数，但是存在
+\begin_inset Formula $p_{1},p_{2},\dots,p_{N}$
+\end_inset
+
+之外的其他素数能够将
+\begin_inset Formula $n$
+\end_inset
+
+进行素因子分解。 不管哪种情况，都表明存在更多的素数。定理得证。
+\begin_inset Formula $\qed$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Chapter
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数的证明
+\end_layout
+
+\begin_layout Theorem
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数
+\begin_inset Newline newline
+\end_inset
+
+证明：用反证法。假设
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是有理数，则可表示为两个整数的商，即
+\begin_inset Formula $\exists p,q,q\ne0$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\sqrt{2}=\frac{p}{q}
+\]
+
+\end_inset
+
+ 不失一般性，我们假设
+\begin_inset Formula $p,q$
+\end_inset
+
+是既约的，即
+\begin_inset Formula $\gcd(p,q)=1$
+\end_inset
+
+。对上式两边平方可得
+\begin_inset Formula 
+\begin{align*}
+2 & =\frac{p^{2}}{q^{2}}\\
+p^{2} & =2q^{2}.
+\end{align*}
+
+\end_inset
+
+表明
+\begin_inset Formula $p^{2}$
+\end_inset
+
+为偶数，因此
+\begin_inset Formula $p$
+\end_inset
+
+为偶数，记
+\begin_inset Formula $p=2m$
+\end_inset
+
+。
+\begin_inset Formula 
+\begin{align*}
+p^{2} & =4m^{2}=2q^{2}\\
+q^{2} & =2m^{2}.
+\end{align*}
+
+\end_inset
+
+则 表明
+\begin_inset Formula $q$
+\end_inset
+
+也为偶数，因此它们有公共因子
+\begin_inset Formula $2$
+\end_inset
+
+。这与它们既约的假设矛盾。定理得证。
+\begin_inset Formula $\qed$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+最后是作者简介
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 作者简介
+作者攻读博士学位期间的研究成果
+\end_layout
+
+\begin_layout Section*
+
+\series bold
+\size large
+发表的论文
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“灵犀一指：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“九阳神功：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Section*
+
+\series bold
+\size large
+申请的专利
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“灵犀一指：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\begin_layout Enumerate
+第一作者，“九阳神功：理论与应用”, 武侠学报， 2015年5月。
+\end_layout
+
+\end_body
+\end_document
