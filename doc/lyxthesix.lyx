@@ -1234,6 +1234,7 @@ postgraduate_lyx.lyx
 \begin_deeper
 \begin_layout Verbatim
 
+
 \backslash
 renewcommand*
 \backslash
@@ -1272,11 +1273,13 @@ sample_lyx.lyx
 \begin_deeper
 \begin_layout Verbatim
 
+
 \backslash
 makeatletter
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 renewcommand
@@ -1295,12 +1298,14 @@ fi
 \end_layout
 
 \begin_layout Verbatim
+
                     
 \backslash
 thispagestyle{seustyle}% original style: plain
 \end_layout
 
 \begin_layout Verbatim
+
                     
 \backslash
 global
@@ -1311,12 +1316,14 @@ z@
 \end_layout
 
 \begin_layout Verbatim
+
                     
 \backslash
 @afterindentfalse
 \end_layout
 
 \begin_layout Verbatim
+
                     
 \backslash
 secdef
@@ -1327,6 +1334,7 @@ secdef
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 makeatother 
@@ -1370,6 +1378,7 @@ seuthesis{}
 
 \begin_layout Verbatim
 
+
 \backslash
 titlespacing*{
 \backslash
@@ -1378,6 +1387,30 @@ chapter}{0pt}{10pt}{30pt}
 
 \begin_layout Standard
 后面两个参数分别设置章节标题距离页眉和正文的距离 。
+\end_layout
+
+\begin_layout Standard
+PS：目前已发现的bug，模板中如果调用subflot会报错（如在浮动项中，继续插入浮动项），这是\SpecialChar LyX
+的工作方式导致的，解决方案是在
+\color blue
+导言区的末尾
+\color inherit
+加入
+\end_layout
+
+\begin_layout Verbatim
+
+
+\backslash
+makeatletter 
+\end_layout
+
+\begin_layout Standard
+PS：如果你不用子图，就不要添加了，避免出现其他的问题。
+\end_layout
+
+\begin_layout Section
+ERT模式
 \end_layout
 
 \begin_layout Standard
@@ -1399,11 +1432,13 @@ TeX代码
 
 \begin_layout Verbatim
 
+
 \backslash
 usepackage{algorithmic} 
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 usepackage{algorithm}
@@ -1415,11 +1450,13 @@ usepackage{algorithm}
 
 \begin_layout Verbatim
 
+
 \backslash
 begin{algorithmic}[1]
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 STATE if (具备一定的
@@ -1429,11 +1466,13 @@ LaTeX 使用经验) else (stop here)
 
 \begin_layout Verbatim
 
+
 \backslash
 STATE 有耐心阅读文档
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 STATE 仔细阅读本文档
@@ -1441,11 +1480,13 @@ STATE 仔细阅读本文档
 
 \begin_layout Verbatim
 
+
 \backslash
 STATE 在使用中熟悉它
 \end_layout
 
 \begin_layout Verbatim
+
 
 \backslash
 end{algorithmic}
@@ -1658,7 +1699,7 @@ TeX代码
 
 \begin_layout Standard
 和正常的\SpecialChar LyX
-使用相同，具体可以\SpecialChar LyX
+使用相同，可以参考\SpecialChar LyX
 的用户手册
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1666,7 +1707,7 @@ key "wiki"
 
 \end_inset
 
-以及网上教程，具体可以参考模板中我重写的seuthesix_lyx.lyx和seuthesis_lyx.lyx文件。
+以及网上教程，具体可以打开模板中我重写的seuthesix_lyx.lyx和seuthesis_lyx.lyx文件。
 \end_layout
 
 \begin_layout Section

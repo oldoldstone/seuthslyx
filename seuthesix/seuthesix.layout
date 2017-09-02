@@ -1,360 +1,360 @@
-#% Do not delete the line below; configure depends on this      
-#  \DeclareLaTeXClass[seuthesix]{thesis (seu)} 
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[seuthesix]{thesis (seu)}
 # LyX Layout definition file.
 # for thesis of Southeast University
 # --------
 # Copyright (C) 2017 oldoldstone <oldoldstone@gmail.com>
-# Date: 2017/08/31 
-# 
+# Date: 2017/08/31
+#
 # # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 # MA 02110-1301, USA.
 #
-# This work consists of the files seuthesis.layout and 
+# This work consists of the files seuthesis.layout and
 # and seuthesix.layout
 
 Input book.layout
 NoStyle Right_Address
- 
+
 Style Title
-	Category	FrontMatter
-	LatexType	command
-	LatexName	title
-	Margin		First_Dynamic
-	LabelType	No_Label
-	LabelString	标题
-	Argument 1
-	  Mandatory	1
-	  LabelString	"标题:"
-	  Tooltip	"中文标题"
-	EndArgument
-	Argument 2
-	  Mandatory	1
-	  LabelString	"副标题:"
-	  Tooltip	"中文副标题"
-	EndArgument
+  Category    FrontMatter
+  LatexType   command
+  LatexName   title
+  Margin      First_Dynamic
+  LabelType   No_Label
+  LabelString 标题
+  Argument 1
+    Mandatory   1
+    LabelString "标题:"
+    Tooltip     "中文标题"
+  EndArgument
+  Argument 2
+    Mandatory   1
+    LabelString "副标题:"
+    Tooltip     "中文副标题"
+  EndArgument
   Argument 3
-	  Mandatory	1
-	  LabelString	"英文标题"
-	  Tooltip	"英文标题"
-	EndArgument
-	LabelSep	x
-	ParIndent	MMM
-	ParSkip		0.4
-	TopSep		0.7
-	BottomSep	0.7
-	ParSep		0.3
-	Align		Center  
+    Mandatory   1
+    LabelString "英文标题"
+    Tooltip     "英文标题"
+  EndArgument
+  LabelSep    x
+  ParIndent   MMM
+  ParSkip     0.4
+  TopSep      0.7
+  BottomSep   0.7
+  ParSep      0.3
+  Align       Center
   Font
-	  Size                Largest
-	EndFont 
-  InTitle    0
+    Size      Largest
+  EndFont
+  InTitle     0
 End
 
 Style Author
-	Category	FrontMatter
-	LatexType	command
-	LatexName	author
-	Margin		First_Dynamic
-	LabelType	No_Label
-	LabelString	Author
-	Argument 1 
-    Mandatory	1 
-	  LabelString	"姓名:"
-	  Tooltip	"中文姓名"
-	EndArgument  
-	LabelSep	x
-	ParIndent	MMM
-	ParSkip		0.4
-	TopSep		0.7
-	BottomSep	0.7
-	ParSep		0.3
-	Align		center
-	LabelFont
-	  Series	Bold
-	EndFont
-  InTitle   0
+  Category    FrontMatter
+  LatexType   command
+  LatexName   author
+  Margin      First_Dynamic
+  LabelType   No_Label
+  LabelString Author
+  Argument 1
+    Mandatory   1
+    LabelString "姓名:"
+    Tooltip     "中文姓名"
+  EndArgument
+  LabelSep    x
+  ParIndent   MMM
+  ParSkip     0.4
+  TopSep      0.7
+  BottomSep   0.7
+  ParSep      0.3
+  Align       center
+  LabelFont
+    Series    Bold
+  EndFont
+  InTitle     0
 End
 
 Style 学位
-	CopyStyle		Author
-  LatexName   degreetype 
-	LabelString	"学位:"
+  CopyStyle   Author
+  LatexName   degreetype
+  LabelString "学位:"
   Argument 1
-	  Mandatory	1
-	  LabelString	"学位:"
-	  Tooltip	"中文学位"
-	EndArgument
-End 
+    Mandatory   1
+    LabelString "学位:"
+    Tooltip     "中文学位"
+  EndArgument
+End
 
 Style 学院
-	CopyStyle		Author
-  LatexName   department 
-	LabelString	"学院:"
+  CopyStyle   Author
+  LatexName   department
+  LabelString "学院:"
   Argument 1
-	  Mandatory	1
-	  LabelString	"学院:"
-	  Tooltip	"中文学院
-	EndArgument
-End 
+    Mandatory   1
+    LabelString "学院:"
+    Tooltip     "中文学院
+  EndArgument
+End
 
 Style Chapter
-  LabelSep	xxx
-	ParSkip		0.4
-	TopSep		0.9
-  Align     Center
-	BottomSep	0.9
-  LabelType	Static
+  LabelSep    xxx
+  ParSkip     0.4
+  TopSep      0.9
+  Align       Center
+  BottomSep   0.9
+  LabelType   Static
 End
 
 Style 导师
-  Category	FrontMatter
-	LatexType	command
-	LatexName	advisor
-	Margin		First_Dynamic
-	LabelString		"指导老师:"
-  LabelType	Static
-	Argument 1
-	  Mandatory	1
-	  LabelString	"姓名:"
-	  Tooltip	"中文姓名"
-	EndArgument
-	Argument 2
-	  Mandatory	1
-	  LabelString	"职称:"
-	  Tooltip	"中文职称"
-	EndArgument
+  Category    FrontMatter
+  LatexType   command
+  LatexName   advisor
+  Margin      First_Dynamic
+  LabelString "指导老师:"
+  LabelType   Static
+  Argument 1
+    Mandatory   1
+    LabelString "姓名:"
+    Tooltip     "中文姓名"
+  EndArgument
+  Argument 2
+    Mandatory   1
+    LabelString "职称:"
+    Tooltip     "中文职称"
+  EndArgument
   Argument 3
-	  Mandatory	1
-	  LabelString	"英文姓名:"
-	  Tooltip	"英文职称"
-	EndArgument
-	LabelSep	x
-	ParIndent	MMM
-	ParSkip		0.4
-	TopSep		0.7
-	BottomSep	0.7
-	ParSep		0.3
-	Align		center
-	LabelFont
-	  Series	Bold
-	EndFont    
+    Mandatory   1
+    LabelString "英文姓名:"
+    Tooltip     "英文职称"
+  EndArgument
+  LabelSep    x
+  ParIndent   MMM
+  ParSkip     0.4
+  TopSep      0.7
+  BottomSep   0.7
+  ParSep      0.3
+  Align       center
+  LabelFont
+    Series    Bold
+  EndFont
 End
 
 Style 合作导师
-  CopyStyle     导师
-  LabelString		"合作导师:"
-  LatexName	coadvisor  
+  CopyStyle   导师
+  LabelString "合作导师:"
+  LatexName   coadvisor
 End
 
 Style Address
-	CopyStyle     Date
-  LatexName     address
-	LabelString   "地点:" 
-   LabelFont 
-    Color       Blue
-    Series      bold
-	EndFont
-  LabelType	Static
-  InTitle       0
-End 
+  CopyStyle   Date
+  LatexName   address
+  LabelString "地点:"
+   LabelFont
+    Color     Blue
+    Series    bold
+  EndFont
+  LabelType   Static
+  InTitle     0
+End
 
 Style 专业
-  CopyStyle     Address
-	LatexName     major 
-	LabelString		"专业:"
+  CopyStyle   Address
+  LatexName   major
+  LabelString "专业:"
   Argument 1
-	  Mandatory	0
-	  LabelString	"字符长度"
-	  Tooltip	"缺省为8个字符"
-	EndArgument 
+    Mandatory   0
+    LabelString "字符长度"
+    Tooltip     "缺省为8个字符"
+  EndArgument
 End
 
 Style 基金资助
-  CopyStyle     Address
-	LatexName     seuthesisthanks
-	LabelString		"基金资助:" 
-  Align         Left
-  Margin        Dynamic 
+  CopyStyle   Address
+  LatexName   seuthesisthanks
+  LabelString "基金资助:"
+  Align       Left
+  Margin      Dynamic
   Font
-	  Size        normal
-	EndFont 
+    Size      normal
+  EndFont
   LabelFont
-	  Color		blue
-	  Size		Normal
-	EndFon
-End 
+    Color     blue
+    Size      Normal
+  EndFon
+End
 
 Style Abstract
-	Margin		Dynamic
-	LatexType	Environment
-	LatexName	abstract
-	Category	FrontMatter
-  Argument 1 
-	  LabelString	"Keywords"
-	  Tooltip	"please input keywords separated by ;"
-	  Mandatory	1
-	  DefaultArg	"!"
-	  AutoInsert	1
-	EndArgument 
-	NextNoIndent	1
-	LabelSep	xxx
-	ParSkip		0.4
-	TopSep		0.7
-	BottomSep	0.4
-	Align		Block
-	LabelType	Static
-	LabelString	"中文摘要"
-	LabelFont
-	  Series	Bold
-	EndFont
+  Margin      Dynamic
+  LatexType   Environment
+  LatexName   abstract
+  Category    FrontMatter
+  Argument 1
+    LabelString "Keywords"
+    Tooltip     "please input keywords separated by ;"
+    Mandatory   1
+    DefaultArg  "!"
+    AutoInsert  1
+  EndArgument
+  NextNoIndent  1
+  LabelSep    xxx
+  ParSkip     0.4
+  TopSep      0.7
+  BottomSep   0.4
+  Align       Block
+  LabelType   Static
+  LabelString "中文摘要"
+  LabelFont
+    Series    Bold
+  EndFont
 End
 
 Style 英文摘要
-	CopyStyle		"Abstract"
-  LatexName	englishabstract
-  LabelString	"英文摘要"
+  CopyStyle   "Abstract"
+  LatexName englishabstract
+  LabelString "英文摘要"
 End
 
 Style 作者简介
-  CopyStyle     "专业"
-	LatexName	resume
-	Category	BackMatter 	 
-	LabelString	"作者简介:"
-  Align     Center
-  LabelType Static 
+  CopyStyle   "专业"
+  LatexName   resume
+  Category    BackMatter
+  LabelString "作者简介:"
+  Align       Center
+  LabelType   Static
 End
 
 Style Verbatim
-	Font
-	  Color        magenta
-	EndFont
+  Font
+    Color     magenta
+  EndFont
 End
 
 InsetLayout Flex:UDC
-	LyxType		custom
-	LatexType	command
-	LatexName	UDC
-	Decoration	classic
-	LabelString	"UDC"
-	Font
-	  Color		foreground
-	  Size		Normal
-	EndFont
-	LabelFont
-	  Color		marginlabel
-	  Size		Normal
-	EndFont 
+  LyxType     custom
+  LatexType   command
+  LatexName   UDC
+  Decoration  classic
+  LabelString "UDC"
+  Font
+    Color     foreground
+    Size      Normal
+  EndFont
+  LabelFont
+    Color     marginlabel
+    Size      Normal
+  EndFont
 End
 
 InsetLayout Flex:二级学科
-  CopyStyle     Flex:UDC
-	LatexName     submajor
-	LabelString		"二级学科" 
+  CopyStyle   Flex:UDC
+  LatexName   submajor
+  LabelString "二级学科"
 End
 
 InsetLayout Flex:首页封面
-	CopyStyle     Flex:UDC
-  LatexName     makebigcover  
-	LabelString   "生成首页封面"
+  CopyStyle   Flex:UDC
+  LatexName   makebigcover
+  LabelString "生成首页封面"
 End
 
 InsetLayout Flex:封面
-	CopyStyle     Flex:UDC
-  LatexName     makecover 
-	LabelString   "生成封面"
+  CopyStyle   Flex:UDC
+  LatexName   makecover
+  LabelString "生成封面"
 End
 
 InsetLayout Flex:分类号
-	CopyStyle     Flex:UDC
-  LatexName     categorynumber 
-	LabelString   "分类号"
+  CopyStyle   Flex:UDC
+  LatexName   categorynumber
+  LabelString "分类号"
 End
 
 InsetLayout Flex:密级
-	CopyStyle     Flex:UDC
-  LatexName     secretlevel 
-	LabelString   "密级"
+  CopyStyle   Flex:UDC
+  LatexName   secretlevel
+  LabelString "密级"
 End
 
 InsetLayout Flex:学号
-	CopyStyle     Flex:UDC
-  LatexName     studentid 
-	LabelString   "学号"
+  CopyStyle   Flex:UDC
+  LatexName   studentid
+  LabelString "学号"
 End
 
 InsetLayout Flex:答辩委员会主席
-	CopyStyle     Flex:UDC
-  LatexName     committeechair 
-	LabelString   "答辩主席"
+  CopyStyle   Flex:UDC
+  LatexName   committeechair
+  LabelString "答辩主席"
 End
 
 InsetLayout Flex:答辩日期
-  CopyStyle     Flex:UDC
-  LatexName     defenddate 
-  LabelString		"答辩日期"  
+  CopyStyle   Flex:UDC
+  LatexName   defenddate
+  LabelString "答辩日期"
 End
 
 InsetLayout Flex:学位授予日期
-	CopyStyle     Flex:UDC
-  LatexName     authorizedate 
-	LabelString   "学位授予日期"
+  CopyStyle   Flex:UDC
+  LatexName   authorizedate
+  LabelString "学位授予日期"
 End
 
 InsetLayout Flex:评阅人
-	CopyStyle     Flex:UDC
-  LatexName     reviewer 
-	LabelString   "评阅人"
+  CopyStyle   Flex:UDC
+  LatexName   reviewer
+  LabelString "评阅人"
   Argument 1
-	  Mandatory	1
-	  LabelString   "评阅人A"
-	  Tooltip     "第一组评阅人"
-	EndArgument
+    Mandatory 1
+    LabelString "评阅人A"
+    Tooltip     "第一组评阅人"
+  EndArgument
 End
 
 InsetLayout Flex:术语与符号
-	CopyStyle     Flex:UDC
-  LatexName     nomenclature 
-	LabelString   "术语与符号约定"
+  CopyStyle   Flex:UDC
+  LatexName   nomenclature
+  LabelString "术语与符号约定"
   Argument 1
-	  Mandatory	0
-	  LabelString	"选项:"
-	  Tooltip	"选项"
-	EndArgument
-	Argument 2
-	  Mandatory	1
-	  LabelString	"符号:"
-	  Tooltip	"符号"
-	EndArgument
+    Mandatory   0
+    LabelString "选项:"
+    Tooltip     "选项"
+  EndArgument
+  Argument 2
+    Mandatory   1
+    LabelString "符号:"
+    Tooltip     "符号"
+  EndArgument
 End
 
-InsetLayout Flex:Acknowledgement 
-  CopyStyle     Flex:UDC 
-	LatexName     acknowledgement 	 
-	LabelString   "致谢" 
-  TopSep        0.7
-	BottomSep     0.4
+InsetLayout Flex:Acknowledgement
+  CopyStyle   Flex:UDC
+  LatexName   acknowledgement
+  LabelString "致谢"
+  TopSep      0.7
+  BottomSep   0.4
 End
 
 Style Standard
-	ParIndent             ""
-  ParSep		0.5 
+  ParIndent   ""
+  ParSep      0.5
 End
 
-Preamble 
+Preamble
   \let\oldtableofcontents\tableofcontents
-	\renewcommand{\tableofcontents}{
+  \renewcommand{\tableofcontents}{
     \setnomname{术语与符号约定}
     \oldtableofcontents
     \listofothers
@@ -366,5 +366,5 @@ Preamble
     \phantomsection
     \addcontentsline{toc}{chapter}{\bibname}
     \oldbibliography{#1}
-  }	   
+  }
 EndPreamble
