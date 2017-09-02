@@ -1,0 +1,102 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil Symbols\hfil}\nopagebreak
+
+  \item \texttt  {\char '134\relax UDC}\pfill \hyperpage{9}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax address}\pfill \hyperpage{10}, 
+		\hyperpage{22}
+  \item \texttt  {\char '134\relax advisor}\pfill \hyperpage{9}
+  \item \texttt  {\char '134\relax authorizedate}\pfill \hyperpage{10}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax authorizeorganization}\pfill 
+		\hyperpage{10}, \hyperpage{21}
+  \item \texttt  {\char '134\relax author}\pfill \hyperpage{9}, 
+		\hyperpage{19}
+  \item \texttt  {\char '134\relax autoref}\pfill \hyperpage{13}
+  \item \texttt  {\char '134\relax backcover}\pfill \hyperpage{33}
+  \item \texttt  {\char '134\relax begin\{Acknowledgement\}}\pfill 
+		\hyperpage{13}, \hyperpage{33}
+  \item \texttt  {\char '134\relax begin\{Appendix\}}\pfill 
+		\hyperpage{13}, \hyperpage{33}
+  \item \texttt  {\char '134\relax begin\{Main\}}\pfill \hyperpage{12}, 
+		\hyperpage{32}
+  \item \texttt  {\char '134\relax begin\{Resume\}}\pfill 
+		\hyperpage{14}, \hyperpage{33}
+  \item \texttt  {\char '134\relax begin\{abstract\}}\pfill 
+		\hyperpage{11}, \hyperpage{29}
+  \item \texttt  {\char '134\relax begin\{document\}}\pfill 
+		\hyperpage{5}
+  \item \texttt  {\char '134\relax begin\{englishabstract\}}\pfill 
+		\hyperpage{11}, \hyperpage{30}
+  \item \texttt  {\char '134\relax begin\{flushright\}}\pfill 
+		\hyperpage{13}
+  \item \texttt  {\char '134\relax begin\{terminology\}}\pfill 
+		\hyperpage{11}, \hyperpage{31}
+  \item \texttt  {\char '134\relax bibliography}\pfill \hyperpage{13}
+  \item \texttt  {\char '134\relax categorynumber}\pfill \hyperpage{8}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax chapter\{第一个附录\}}\pfill 
+		\hyperpage{13}
+  \item \texttt  {\char '134\relax citet}\pfill \hyperpage{13}, 
+		\hyperpage{32}
+  \item \texttt  {\char '134\relax cite}\pfill \hyperpage{13}, 
+		\hyperpage{32}
+  \item \texttt  {\char '134\relax coadvisor}\pfill \hyperpage{9}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax committeechair}\pfill \hyperpage{10}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax date}\pfill \hyperpage{10}
+  \item \texttt  {\char '134\relax defenddate}\pfill \hyperpage{10}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax degree}\pfill \hyperpage{10}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax department}\pfill \hyperpage{9}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax documentclass}\pfill \hyperpage{5}, 
+		\hyperpage{41}, \hyperpage{43}
+  \item \texttt  {\char '134\relax duration}\pfill \hyperpage{10}, 
+		\hyperpage{22}
+  \item \texttt  {\char '134\relax end\{Main\}}\pfill \hyperpage{13}
+  \item \texttt  {\char '134\relax end\{document\}}\pfill \hyperpage{5}
+  \item \texttt  {\char '134\relax linespacing}\pfill \hyperpage{18}
+  \item \texttt  {\char '134\relax major}\pfill \hyperpage{9}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax maketitle}\pfill \hyperpage{5}, 
+		\hyperpage{8}, \hyperpage{22}
+  \item \texttt  {\char '134\relax newtitleline}\pfill \hyperpage{19}, 
+		\hyperpage{41}
+  \item \texttt  {\char '134\relax printindex}\pfill \hyperpage{14}
+  \item \texttt  {\char '134\relax reader}\pfill \hyperpage{10}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax refappendix}\pfill \hyperpage{37}
+  \item \texttt  {\char '134\relax refchapter}\pfill \hyperpage{13}, 
+		\hyperpage{37}
+  \item \texttt  {\char '134\relax refsec}\pfill \hyperpage{13}, 
+		\hyperpage{37}
+  \item \texttt  {\char '134\relax refsubsec}\pfill \hyperpage{37}
+  \item \texttt  {\char '134\relax refsubsubsec}\pfill \hyperpage{37}
+  \item \texttt  {\char '134\relax secretlevel}\pfill \hyperpage{9}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax stcleardp}\pfill \hyperpage{18}
+  \item \texttt  {\char '134\relax studentid}\pfill \hyperpage{9}, 
+		\hyperpage{20}
+  \item \texttt  {\char '134\relax submajor}\pfill \hyperpage{10}, 
+		\hyperpage{21}
+  \item \texttt  {\char '134\relax tableofcontents}\pfill 
+		\hyperpage{11}
+  \item \texttt  {\char '134\relax thanks}\pfill \hyperpage{11}, 
+		\hyperpage{22}
+  \item \texttt  {\char '134\relax title}\pfill \hyperpage{9}, 
+		\hyperpage{19}
+  \item \texttt  {\char '134\relax 命令}\pfill \hyperpage{VII}
+  \item \texttt  {bachelor}\pfill \hyperpage{8}, \hyperpage{15}
+  \item \texttt  {doctor}\pfill \hyperpage{8}, \hyperpage{15}
+  \item \texttt  {doublecover}\pfill \hyperpage{8}
+  \item \texttt  {engineering}\pfill \hyperpage{8}, \hyperpage{15}
+  \item \texttt  {master}\pfill \hyperpage{8}, \hyperpage{15}
+  \item \texttt  {nocolorlinks}\pfill \hyperpage{8}
+  \item \texttt  {printedition}\pfill \hyperpage{8}
+
+ \end{theindex}
